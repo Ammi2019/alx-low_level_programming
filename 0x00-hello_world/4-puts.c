@@ -1,10 +1,12 @@
+/**
+*First C code
+*/
 #include <stdio.h>
-
-int main(void)
 
 	/**
 	*The main function returns no arguments
 	*/
+int main(void)
 {
 	/**
 	*Use the puts function instead of printf	
