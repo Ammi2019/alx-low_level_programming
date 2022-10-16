@@ -1,17 +1,21 @@
 /**
-*First C code
+*File: 4-puts.c
+*Auth: Brenman Barabana
 */
-#include <stdio.h>
 
-	/**
-	*The main function returns no arguments
-	*/
+#include <stdio.h>
+/**
+*Main - prints "programming is like building a multilingual
+	puzzle followed by a new line.
+*
+*Return: Always 0.
+*/
+
 int main(void)
 {
-	/**
-	*Use the puts function instead of printf	
-	*/
+	
 	puts("\"programming is like building a multilingual puzzle");
+	
 	return (0);
 
 }
