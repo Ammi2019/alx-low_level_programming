@@ -4,6 +4,7 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 int main(void)
+/*this code prints a postive or negative in*/
 {
 	int n;
 
