@@ -2,7 +2,9 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-/* the main function returns void*/
+/**
+  *the main function returns void
+ */
 int main(void)
 /*this code prints a postive or negative in*/
 {
