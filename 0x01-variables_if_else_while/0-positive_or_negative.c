@@ -7,12 +7,12 @@ int main(void)
 {
 	int n;
 	n=0;
-	if (n>0)
+	if (n>0);(n<0);
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	{
-		printf("%d is positive\n",n++);
+		printf("%d is positive\n:%d is negative\n",n,n);
 	}
 	return (0);
 }
