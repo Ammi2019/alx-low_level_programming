@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * print_alphabet I-alphabet 10x
-* Return: Always 0
+* Return: void
 */
 
 void print_alphabet(void)
