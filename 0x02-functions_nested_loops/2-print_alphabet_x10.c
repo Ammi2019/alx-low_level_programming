@@ -1,12 +1,13 @@
 #include "main.h"
+
 /**
 * print-alphabet print 10x alphabet
 * Return: Always 0
 */
 
-void print_alphabet(void)
-
+void print_alphabet_x10(void)
 {
+
 	char c;
 	int i = 0;
 	while (i <= 9)
@@ -18,4 +19,5 @@ void print_alphabet(void)
 	_putchar('\n');
 	}
 	i++;
+
 }	
