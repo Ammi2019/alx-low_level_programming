@@ -2,11 +2,8 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-/**
-  *the main function returns void
- */
+/* betty style doc for function main goes there */
 int main(void)
-/*this code prints a postive or negative in*/
 {
 	int n;
 
@@ -15,13 +12,13 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("%d is positive\n", n);
+	printf("%d is positive\n", n);
 	}
 	else if (n < 0)
 	{
 		printf("%d is negative\n", n);
 	}
-	else
+	else 
 	{
 		printf("%d is zero\n", n);
 	}
