@@ -3,6 +3,11 @@
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
+/**
+* main - assign a random variable and print negative positive or zero
+* Return: 0 (success)
+*/
+
 int main(void)
 {
 	int n;
@@ -18,7 +23,7 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	else 
+	else
 	{
 		printf("%d is zero\n", n);
 	}
