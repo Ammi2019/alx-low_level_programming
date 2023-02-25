@@ -23,7 +23,7 @@ int main(void)
 	}
 	else if (lstd < 6 && lstd != 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lstd);	
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lstd);
 	}
 	else
 	{
