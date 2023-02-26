@@ -1,7 +1,9 @@
-#include "main.h" 
+#include "main.h"
+
+
 /**
-* int_abs - compute an absolute value of an integer
-* Return: void
+* _abs - compute an absolute value of an integer
+* Return: c if less than 0 &&abs_val if absolute
 */
 
 int _abs(int c)
@@ -11,6 +13,7 @@ int _abs(int c)
 	{
 	int abs_val;
 	abs_val = c * -1;
+	
 	return (abs_val);
 	}
 	return (c);
