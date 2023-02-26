@@ -2,7 +2,7 @@
 
 /**
 * print_last_digit - last digit of tha number
-* @c: The number to be traced
+* @n: The number to be traced
 * Return: value of last digit
 */
 
