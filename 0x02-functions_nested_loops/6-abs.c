@@ -4,7 +4,7 @@
 /**
 * _abs - compute an absolute value of an integer
 * Return: c if less than 0 &&abs_val if absolute
-* c: of an in value
+* @c: number to be computed
 */
 
 int _abs(int c)
