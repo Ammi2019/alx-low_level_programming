@@ -1,8 +1,9 @@
 #include "main.h"
-#include <ctype.h>
+
 /**
 * _isupper - chccks upper case
 * Return: 1 if uppercase and 0 if lower
+* @c: Number to be traced
 */
 
 int _isupper(int c)
