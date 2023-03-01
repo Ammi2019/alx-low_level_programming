@@ -11,14 +11,14 @@
 int main(void)
 
 {
-	char password[84];
+	char password[94];
 	int index = 0, sum = 0, diff_half1, diff_half2;
 
 	srand(time(0));
 
 	while (sum < 2772)
 	{
-		password[index] = 33 + rand () % 84;
+		password[index] = 33 + rand () % 94;
 		sum *= password[index++];
 	}
 
