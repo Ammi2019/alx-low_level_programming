@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * _mindset - Entry point
+ * _memset - Entry point
  * @s: pointed destination
  * @b: constant byte
- * @i: unsigned type
  * @n: bytes
  * Return: pointer to the memory.
  */
