@@ -4,6 +4,7 @@
  * _mindset - Entry point
  * @s: pointed destination
  * @b: constant byte
+ * @i: unsigned type
  * @n: bytes
  * Return: pointer to the memory.
  */
