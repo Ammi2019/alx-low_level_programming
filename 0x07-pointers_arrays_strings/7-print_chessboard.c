@@ -3,6 +3,7 @@
 /**
  * Print_chessboard - Entry point
  * @a: array
+ * @8: 2d 
  * Return: Always 0 (success)
  */
 
