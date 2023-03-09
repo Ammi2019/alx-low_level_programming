@@ -15,7 +15,7 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * _sqrt -calculaes natural square root 
+ * _sqrt -calculaes natural square root
  * @n: number to calculate the square root
  * @i: iterate number
  * Return: natural square root
