@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -8,7 +8,7 @@ nclude "main.h"
       */
 int main(void)
 {
-	nt r;
+	int r;
 
 	r = _pow_recursion(1, 10);
 	printf("%d\n", r);
