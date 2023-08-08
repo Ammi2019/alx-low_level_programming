@@ -32,7 +32,8 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	for (a = 0; str[a]; a++)
+	{
 		par[a] = str[a];
-
+	}
 	return (par);
 }
