@@ -21,8 +21,9 @@ char *_strdup(char *str)
 	while (str[i] != '\0')
 		{
 		i++;
-		return (0);
 		}
+		return (0);
+		
 	}
 
 	par  = malloc(sizeof(char) * (i + 1));
