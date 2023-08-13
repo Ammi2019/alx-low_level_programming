@@ -10,20 +10,22 @@ int is_prime_number(int n)
 {
 	if (n <= 1)
 		return (0);
-	return(_is_actual_prime(n, n-1));
+	return(_is_actual_prime(n, n - 1));
 }
 /**
   * _is_actual_prime - recursively calculates if a number is prime
   * @n: number to validate as prime
-  * @r: the iterator
+  * @a: the iterator
   */
 
 
-int _is_actual_prime (int n, int r)
+int _is_actual_prime (int n, int a)
 {
-	if (n == 1)
-	return 1;
-		if (n % r == 0 && r > 0)
+	if ((n / a == n && n / a == n) || a == 1)
+	{
+		return (1);
+	}
+		if (n % a == 0 && a > 0)
 		return (0);
-	return(_is_actual_prime(n, r - 1));
+	return(_is_actual_prime(n, a - 1));
 }
