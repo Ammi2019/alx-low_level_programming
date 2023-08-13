@@ -16,17 +16,18 @@ int _sqrt_recursion(int n)
 }
 
 /**
-  *_actual_root_recursion - finds the natural sqaure root of a number
-  * @n: number for which the natural sqaure root is to be calculated
-  * @r: the iterator
+  *_actual_root_recursion - function that finds
+  * the natural sqaure root of a number
+  * @n: the number for which the natural sqaure root is to be calculated
+  * @a: iterator
   * Return: The natural square root
 */
 
-int _actual_root_recursion(int n, int r)
+int _actual_root_recursion(int n, int a)
 {
-	if (r * r > n)
+	if (a *a > n)
 		return (-1);
-	if (r * r == n)
-		return (r);
-	return (_actual_root_recursion(n, r + 1));
+	if (a * a == n)
+		return (a);
+	return (_actual_root_recursion(n, a + 1));
 }
