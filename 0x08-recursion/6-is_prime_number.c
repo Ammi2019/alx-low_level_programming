@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * is_prime_number - a function to validate a prime number 
+  * is_prime_number - a function to validate a prime number
   * @n: the prime number to be validated
   * return: 1 if prime number; else return 0
   */
@@ -19,7 +19,7 @@ int is_prime_number(int n)
   */
 
 
-int _is_actual_prime (int n, int a)
+int _is_actual_prime(int n, int a)
 {
 	if ((n / a == n && n / a == n) || a == 1)
 	{
@@ -27,5 +27,5 @@ int _is_actual_prime (int n, int a)
 	}
 		if (n % a == 0 && a > 0)
 		return (0);
-	return(_is_actual_prime(n, a - 1));
+	return (_is_actual_prime(n, a - 1));
 }
