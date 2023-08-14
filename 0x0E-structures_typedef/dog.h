@@ -5,7 +5,7 @@
   * @name: string to return the name
   * @age: value to be printed in float type
   * @owner: String to print owner
-  * Return: The Strings
+  *
   */
 
 struct dog
