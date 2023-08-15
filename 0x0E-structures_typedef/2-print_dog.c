@@ -10,7 +10,11 @@ void print_dog(struct dog *d)
 	{
 	return ;
 	}
-	if (d->name && d->owner == ("nil"))
+	if (d->name == ("nil"))
+	{
+		return ;
+	}
+	if(d->owner == ("nil"))
 	{
 		return ;
 	}
