@@ -6,8 +6,9 @@
  * @name: sting to input
  * @age: string to input
  * @owner: string to input
- * Return: void
-  */
+ * @d: pointer
+ * struct dog: type def
+ */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
