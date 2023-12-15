@@ -5,9 +5,9 @@
 /**
  * main - A  program to assign a random number positive or negative
  * n: the random number
- * Return: is positive if greater than 0, is zero if zero and is  negative 
+ * Return: is positive if greater than 0, is zero if zero and is  negative
  * if less than 0
-  */
+ */
 
 int main(void)
 {
