@@ -3,7 +3,7 @@
 
 
 /**
-  * _tsrlen_recursion - a function that print lenth of a string
+  * _strlen_recursion - a function that print lenth of a string
   * @s: The string
   * Return: String length.
   */
