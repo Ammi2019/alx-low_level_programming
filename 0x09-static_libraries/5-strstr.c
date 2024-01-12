@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  * _strstr - Entry point
+  * _strstr - n function try point
   * @haystack: input
   * @needle: input
   * Return: Always 0 (Success)
@@ -9,12 +9,12 @@ char *_strstr(char *haystack, char *needle)
 {
       	for (; *haystack != '\0'; haystack++)
       	{
-       	char *l = haystack;
+       	char *a = haystack;
        	char *p = needle;
 
-	while (*l == *p && *p != '\0')
+	while (*a == *p && *p != '\0')
 	{
-		l++;
+		a++;
 		p++;
 	}
 	if (*p == '\0')

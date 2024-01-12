@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * _strspn - Entry point
- * @s: input
+ * _strspn -function entry point
+ * @s: input variable
  * @accept: input
  * Return: Always 0 (Success)
  */
 unsigned int _strspn(char *s, char *accept)
 {
-      	unsigned int n = 0;
+      	unsigned int i = 0;
 	int r;
 
 	while (*s)
@@ -16,13 +16,13 @@ unsigned int _strspn(char *s, char *accept)
  	{
 		if (*s == accept[r])
 		{
-			n++;
+			i++;
 			break;
 		}
 		else if (accept[r + 1] == '\0')
-		return (n);
+		return (i);
 	}
 	s++;
 	}
-	return (n);
+	return (i);
 }
