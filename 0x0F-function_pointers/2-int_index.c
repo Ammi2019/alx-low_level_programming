@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 
 /**
-* int_index - a function to return return index place if comparison = true, else -1
+* int_index - a function to return an index
 * @array: array
 * @size: size of elements in the array
 * @cmp: pointer to a function
