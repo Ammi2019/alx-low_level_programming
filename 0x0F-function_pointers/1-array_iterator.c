@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
-* array_iterator - a function that prints each array elem on a newl
+* array_iterator - a function that prints each array element on a
+* newline.
 * @array: array
 * @size: Number of element to print
 * @action: pointer in regular or hex
@@ -11,13 +12,13 @@
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	unsigned int i;
-	
+	unsigned int a;
+
 	if (array == NULL || action == NULL)
 	return;
 
-	for (i = 0; i < size; i++)
+	for (a = 0; a < size; a++)
 	{
-		action(array[i]);
+		action(array[a]);
 	}
 }
